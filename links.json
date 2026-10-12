@@ -1,0 +1,254 @@
+{
+  "title": {
+    "nl": "dormakaba links",
+    "fr": "dormakaba liens"
+  },
+  "subtitle": {
+    "nl": "Joachim · Service automatische deuren",
+    "fr": "Joachim · Service portes automatiques"
+  },
+  "groups": [
+    {
+      "id": "rapporten",
+      "title": {
+        "nl": "Rapporten",
+        "fr": "Rapports"
+      },
+      "links": [
+        {
+          "icon": "📝",
+          "label": {
+            "nl": "Werkrapport",
+            "fr": "Rapport de travail"
+          },
+          "description": {
+            "nl": "Digitaal werkrapport invullen",
+            "fr": "Remplir le rapport de travail digital"
+          },
+          "url": "https://sealink68.github.io/werkrapport"
+        },
+        {
+          "icon": "📄",
+          "label": {
+            "nl": "Servicerapport digitaal",
+            "fr": "Rapport de service digital"
+          },
+          "description": {
+            "nl": "Adobe Acrobat",
+            "fr": "Adobe Acrobat"
+          },
+          "url": "https://acrobat.adobe.com/id/urn:aaid:sc:EU:077a6c93-880e-4d88-84d6-812244a83549"
+        }
+      ],
+      "show": "always"
+    },
+    {
+      "id": "onderdelen",
+      "title": {
+        "nl": "Onderdelen",
+        "fr": "Pièces"
+      },
+      "links": [
+        {
+          "icon": "🔧",
+          "label": {
+            "nl": "GBO spareparts",
+            "fr": "GBO pièces détachées"
+          },
+          "description": {
+            "nl": "dormakaba onderdelenportaal",
+            "fr": "Portail pièces dormakaba"
+          },
+          "url": "https://de-my.dormakaba.com/de-en/spares"
+        },
+        {
+          "icon": "📦",
+          "label": {
+            "nl": "Stock magazijn 3.2 (PDF)",
+            "fr": "Stock magasin 3.2 (PDF)"
+          },
+          "description": {
+            "nl": "Google Drive",
+            "fr": "Google Drive"
+          },
+          "url": "https://drive.google.com/file/d/1_qgB0beIkwuFmuwzTMTC94ivqMKsNI3y/view?usp=sharing"
+        }
+      ],
+      "show": "always"
+    },
+    {
+      "id": "opmeten",
+      "title": {
+        "nl": "Opmeetformulier",
+        "fr": "Formulaire de mesure"
+      },
+      "show": "mode",
+      "links": [
+        {
+          "icon": "📐",
+          "label": {
+            "nl": "Opmeting Mesure (app)",
+            "fr": "Opmeting Mesure (app)"
+          },
+          "description": {
+            "nl": "uitgebreid",
+            "fr": "détaillé"
+          },
+          "url": "https://sealink68.github.io/Dormakaba-opmeting/"
+        },
+        {
+          "icon": "📋",
+          "label": {
+            "nl": "dormakaba Opmetingsblad",
+            "fr": "dormakaba Feuille de mesure"
+          },
+          "description": {
+            "nl": "compact",
+            "fr": "compact"
+          },
+          "url": "form.html?type=opmeting",
+          "keywords": "formulier formulaire offerte offre opmeting"
+        }
+      ]
+    },
+    {
+      "id": "offertes",
+      "title": {
+        "nl": "Offertes",
+        "fr": "Offres"
+      },
+      "show": "mode",
+      "links": [
+        {
+          "icon": "🚪",
+          "label": {
+            "nl": "Draaideuren",
+            "fr": "Portes battantes"
+          },
+          "description": {
+            "nl": "Offerteaanvraag · intern formulier",
+            "fr": "Demande d’offre · formulaire interne"
+          },
+          "url": "form.html?type=draaideuren",
+          "keywords": "formulier formulaire offerte offre draaideuren"
+        },
+        {
+          "icon": "↔️",
+          "label": {
+            "nl": "ES200 / Easy / Easy+ / 2D / CS / EC2 / BST / FFT",
+            "fr": "ES200 / Easy / Easy+ / 2D / CS / EC2 / BST / FFT"
+          },
+          "description": {
+            "nl": "Schuifdeuren · offerteaanvraag",
+            "fr": "Portes coulissantes · demande d’offre"
+          },
+          "url": "form.html?type=es200",
+          "keywords": "formulier formulaire offerte offre es200"
+        },
+        {
+          "icon": "↔️",
+          "label": {
+            "nl": "ES90",
+            "fr": "ES90"
+          },
+          "description": {
+            "nl": "Offerteaanvraag · intern formulier",
+            "fr": "Demande d’offre · formulaire interne"
+          },
+          "url": "form.html?type=es90",
+          "keywords": "formulier formulaire offerte offre es90"
+        },
+        {
+          "icon": "↔️",
+          "label": {
+            "nl": "ES400",
+            "fr": "ES400"
+          },
+          "description": {
+            "nl": "Offerteaanvraag · intern formulier",
+            "fr": "Demande d’offre · formulaire interne"
+          },
+          "url": "form.html?type=es400",
+          "keywords": "formulier formulaire offerte offre es400"
+        },
+        {
+          "icon": "🔄",
+          "label": {
+            "nl": "TANE",
+            "fr": "TANE"
+          },
+          "description": {
+            "nl": "Offerteaanvraag · intern formulier",
+            "fr": "Demande d’offre · formulaire interne"
+          },
+          "url": "form.html?type=tane",
+          "keywords": "formulier formulaire offerte offre tane"
+        },
+        {
+          "icon": "🔩",
+          "label": {
+            "nl": "Proline",
+            "fr": "Proline"
+          },
+          "description": {
+            "nl": "Offerteaanvraag · intern formulier",
+            "fr": "Demande d’offre · formulaire interne"
+          },
+          "url": "form.html?type=proline",
+          "keywords": "formulier formulaire offerte offre proline"
+        },
+        {
+          "icon": "🧲",
+          "label": {
+            "nl": "CS 80 MAGNEO",
+            "fr": "CS 80 MAGNEO"
+          },
+          "description": {
+            "nl": "Offerteaanvraag · intern formulier",
+            "fr": "Demande d’offre · formulaire interne"
+          },
+          "url": "form.html?type=cs80",
+          "keywords": "formulier formulaire offerte offre cs80"
+        },
+        {
+          "icon": "🪟",
+          "label": {
+            "nl": "HSW",
+            "fr": "HSW"
+          },
+          "description": {
+            "nl": "Horizontale schuifwanden · offerteaanvraag",
+            "fr": "Parois coulissantes · demande d’offre"
+          },
+          "url": "form.html?type=hsw",
+          "keywords": "formulier formulaire offerte offre hsw"
+        }
+      ]
+    }
+  ],
+  "modes": [
+    {
+      "id": "met",
+      "color": "green",
+      "label": {
+        "nl": "Offerte met opmeting",
+        "fr": "Offre avec mesure"
+      },
+      "groups": [
+        "opmeten",
+        "offertes"
+      ]
+    },
+    {
+      "id": "zonder",
+      "color": "red",
+      "label": {
+        "nl": "Offerte zonder opmeting",
+        "fr": "Offre sans mesure"
+      },
+      "groups": [
+        "offertes"
+      ]
+    }
+  ]
+}

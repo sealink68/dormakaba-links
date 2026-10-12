@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Formulier · dormakaba</title>
+<meta name="theme-color" content="#F2F2F7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="dk links">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icon-180.png">
+<link rel="icon" type="image/png" href="icon-192.png">
+<link rel="stylesheet" href="styles.css?v=3">
+<link rel="stylesheet" href="forms/form.css?v=3">
+</head>
+<body class="formpage">
+<header class="top">
+  <div class="top-row">
+    <a class="back" id="back" href="./">‹ <span id="back-txt">Links</span></a>
+    <div class="seg" role="group" aria-label="Taal / Langue">
+      <button type="button" data-lang="nl" aria-pressed="true">NL</button>
+      <button type="button" data-lang="fr" aria-pressed="false">FR</button>
+    </div>
+  </div>
+  <h1 id="ftitle">…</h1>
+  <p class="subtitle" id="fsub"></p>
+</header>
+<main id="main"><form id="form" novalidate></form></main>
+<div class="bar" id="bar">
+  <button type="button" class="btn ghost" id="b-clear"></button>
+  <button type="button" class="btn" id="b-preview"></button>
+</div>
+<div class="modal" id="modal" hidden role="dialog" aria-modal="true" aria-labelledby="m-title">
+  <div class="mhead"><button type="button" class="btn ghost" id="m-close"></button><strong id="m-title"></strong><span></span></div>
+  <div class="mbody" id="m-pages"></div>
+  <div class="mfoot">
+    <p class="mhint" id="m-hint"></p>
+    <button type="button" class="btn" id="m-share"></button>
+    <button type="button" class="btn sec" id="m-mail"></button>
+    <button type="button" class="btn ghost" id="m-dl"></button>
+  </div>
+</div>
+<div id="busy" class="busy" hidden><div class="spin"></div><span id="busy-txt"></span></div>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<div id="pdf-src" class="pdf-src" aria-hidden="true"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.2/html2pdf.bundle.min.js"></script>
+<script src="forms/form.js?v=3"></script>
+</body>
+</html>
